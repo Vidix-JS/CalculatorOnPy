@@ -10,4 +10,6 @@ elif str == "-":
     print(a-b)
 elif str == "/" or str == ":":
     print(a / b)
-else: print("Выбрана не та операция")
+elif str == "*":
+    print(a*b)
+else: print("Выбрана недопустимая операция")
