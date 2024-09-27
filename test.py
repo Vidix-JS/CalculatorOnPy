@@ -19,4 +19,6 @@ elif str == "log":
     print(int(math.log(a,b)))
 elif str == "%":
     print(a%b)
+elif str == "//":
+    print(a//b)
 else: print("Выбрана недопустимая операция")
