@@ -1,3 +1,4 @@
+import math
 print("Введите тип операции: ")
 str = input()
 print("Введите значение для первой переменной: ")
@@ -12,4 +13,6 @@ elif str == "/" or str == ":":
     print(a / b)
 elif str == "*":
     print(a*b)
+elif str == "^":
+    print(int(math.pow(a, b)))
 else: print("Выбрана недопустимая операция")
